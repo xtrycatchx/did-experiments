@@ -1,0 +1,38 @@
+{
+  "@context": "https://w3id.org/identity/v1",
+  "id": "http://example.gov/credentials/3732",
+  "type": ["Credential", "PassportCredential"],
+  "name": "Passport",
+  "issuer": "https://example.gov",
+  "issued": "2010-01-01",
+  "claim": {
+    "id": "did:ebfeb1f712ebc6f1c276e12ec21",
+    "name": "Alice Bobman",
+    "birthDate": "1985-12-14",
+    "gender": "female",
+    "nationality": {
+      "name": "United States"
+    },
+    "address": {
+      "type": "PostalAddress",
+      "addressStreet": "372 Sumter Lane",
+      "addressLocality": "Blackrock",
+      "addressRegion": "Nevada",
+      "postalCode": "237842",
+      "addressCountry": "US"
+    },
+    "passport": {
+      "type": "Passport",
+      "name": "United States Passport",
+      "documentId": "123-45-6789",
+      "issuer": "https://example.gov",
+      "issued": "2010-01-07T01:02:03Z",
+      "expires": "2020-01-07T01:02:03Z"
+    }
+  },
+  "signature": {
+    "type": "LinkedDataSignature2015",
+    "creator": "https://example.gov/keys/27",
+    "signature": "3780eyfh3q0fhhfiq3q9f8ahsidfhf29rhaish"
+  }
+}

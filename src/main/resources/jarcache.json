@@ -1,0 +1,12 @@
+[
+  {
+    "Content-Location": "https://w3id.org/identity/v1",
+    "X-Classpath": "contexts/identity-v1.jsonld",
+    "Content-Type": "application/ld+json"
+  },
+  {
+    "Content-Location": "http://data.example.net/other",
+    "X-Classpath": "contexts/other.jsonld",
+    "Content-Type": "application/ld+json"
+  }
+]
